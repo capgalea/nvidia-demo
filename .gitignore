@@ -1,9 +1,65 @@
+# Environment variables and secrets
 .env
+.env.*
+
+# Project assets and data
 assets
-docs/*
 db
+
+# Documentation build files
+docs/*
 !docs/docs_will_go_here.txt
+
+# Working directory
 workdir/*
 !workdir/repo_will_go_here.txt
+
+# Operating system files
 .DS_Store
+Thumbs.db
+
+# Virtual environments
 .venv
+venv/
+env/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE files
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs
+logs/
+*.log
